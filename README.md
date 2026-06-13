@@ -103,7 +103,7 @@ Or use VS Code Live Server.
 Create pixel-perfect artwork directly in your browser, experiment with colors, export creations as PNG files, and build retro-inspired sprites with an intuitive drawing experience.
 \---
 **###Video-overview**
-<video src="enter " controls width="100%"> Your browser does not support the video tag. </video>
+<video src="https://github.com/user-attachments/assets/92844cad-5df8-4c8e-baab-13eb0e2d3c74" controls width="100%"> Your browser does not support the video tag. </video>
 
 ## 🔮 Future Improvements
 
