@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pixel Art Editor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background -->
+  <div class="background"></div>
+
+  <!-- App -->
+  <div class="app">
+
+    <h1>🎨 Pixel Art Editor (32×32)</h1>
+
+    <div class="toolbar">
+      <input type="color" id="colorPicker" />
+
+      <button id="penBtn">Pen</button>
+      <button id="eraserBtn">Eraser</button>
+      <button id="fillBtn">Fill</button>
+
+      <button id="undoBtn">Undo</button>
+      <button id="redoBtn">Redo</button>
+
+      <button id="clearBtn">Clear</button>
+      <button id="gridToggle">Grid</button>
+      <button id="exportBtn">Export PNG</button>
+    </div>
+
+    <div id="grid"></div>
+
+  </div>
+
+  <!-- hidden canvas for export -->
+  <canvas id="canvas" width="320" height="320" style="display:none;"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
